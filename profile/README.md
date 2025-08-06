@@ -1,69 +1,76 @@
-# NAKAMALABS.io
+<div>
+  <img src="https://cdn.nakamalabs.io/images/favicon.png" alt="NAKAMALABS.io logo" width="20" style="vertical-align: left; margin-right: 10px;"/>
+  <span style="font-size: 2rem; vertical-align: middle;"><strong>NAKAMALABS.io</strong></span>
+</div>
 
-**Formerly known as Davola Studio**
-
-Welcome to the official GitHub organization for [NAKAMALABS.io](https://nakamalabs.io) — a global digital lab building fast, reliable, and scalable solutions for the web. We specialize in modern web development, infrastructure automation, and data-driven products with an emphasis on transparency, performance, and creativity.
+Welcome to the official GitHub organization for [NAKAMALABS.io](https://nakamalabs.io) — a global digital lab building reliable, scalable, and automated infrastructure solutions. We specialize in DevOps, Kubernetes, observability, and open data platforms.
 
 ## 🚀 What We Do
 
-We build and maintain digital products and tools across three main areas:
+We design, build, and maintain systems with a strong emphasis on automation, security, and performance. Our focus is split across two core areas:
 
-### 1. **Web Development**
-- Custom WordPress sites with performance and SEO in mind
-- Static & Jamstack websites powered by Next.js, Tailwind, and ShadCN
-- Landing pages, blogs, and eCommerce catalogs
+### ⚙️ DevOps & Infrastructure
+- GitOps pipelines using **Terraform**, **GitHub Actions**, and **ArgoCD**
+- Kubernetes deployments with **K3s**, **GKE**, and **self-hosted clusters**
+- Monitoring and logging with **Prometheus**, **Grafana**, **Loki**, and **OpenTelemetry**
+- Private cloud tooling, self-hosted services, and hardened deployments
 
-### 2. **DevOps & Infrastructure**
-- GitOps workflows with Terraform and GitHub Actions
-- Kubernetes deployments (K3s, GKE, self-hosted)
-- Monitoring & logging stacks (Prometheus, Grafana, Loki)
-- Self-hosted and cloud-native tooling
-
-### 3. **Data & Transparency Projects**
-- Tools for civic transparency (e.g., *Conócelos* — monitoring Chilean deputies)
-- Scrapers, data visualizations, and public APIs
+### 📊 Data & Transparency Projects
+- Open data platforms promoting civic transparency (e.g., *Conócelos* — tracking Chilean deputies)
+- Custom scrapers, automation bots, public APIs, and real-time data visualizations
 
 ---
 
 ## 📁 Repository Structure
 
-This organization is composed of multiple repositories, generally grouped by category:
+Our codebase is organized by domain:
 
-- **Apps**: Frontend projects (Next.js, WordPress custom themes/plugins)
-- **Infra**: Infrastructure as Code (Terraform, cloud-init, K8s manifests)
-- **DevOps Tools**: Automation, CI/CD workflows, GitHub Actions
-- **Data Projects**: Scrapers, data processors, APIs, visualizations
+- **`infra-*`**: Infrastructure as Code — Terraform modules, cluster bootstrap configs, cloud-init, etc.
+- **`cluster-*`**: Kubernetes manifests, Helm charts, GitOps pipelines
+- **`tools-*`**: Reusable DevOps utilities and GitHub Actions
+- **`data-*`**: Data scraping, API services, and visualization layers
+- **`apps-*`**: Admin panels or UIs (usually built with Next.js)
+
+---
+## 🧩 Core Tech Stack
+
+| Category                  | Technologies                                                             |
+|---------------------------|---------------------------------------------------------------------------|
+| Infrastructure            | Terraform, K3s, GKE, cloud-init, Docker                                   |
+| Orchestration             | Kubernetes, ArgoCD, Helm                                                  |
+| CI/CD                     | GitHub Actions, GitOps, multi-arch Docker builds                          |
+| Monitoring                | Grafana Cloud, Prometheus, Loki, OpenTelemetry, Datadog, Splunk           |
+| Security                  | Cloudflare, Fail2Ban, WireGuard, Zero Trust, Tailscale                    |
+| Data Platform             | Python, FastAPI, Supabase, PostgreSQL, SQLite                             |
+| Frontend (internal tools) | Next.js, Tailwind, ShadCN UI                                             |
 
 ---
 
-## 🧩 Tech Stack
+## 🌍 Philosophy
 
-| Area | Tools |
-|------|-------|
-| Frontend | Next.js, Tailwind CSS, ShadCN UI, React |
-| Backend | FastAPI, Node.js, WordPress (PHP) |
-| Infrastructure | Terraform, Kubernetes (K3s, GKE), Docker, ArgoCD |
-| CI/CD | GitHub Actions |
-| Monitoring | Grafana Cloud, Prometheus, Loki |
-| DNS & Security | Cloudflare, Fail2Ban, WireGuard, Zero Trust |
-| Data & Automation | Python, Supabase, SQLite/PostgreSQL, Selenium |
+At NAKAMALABS, we build systems that are:
+
+- **Composable** — built with interchangeable, open components
+- **Observable** — metrics-first mindset from the start
+- **Secure by Default** — access control and protection at every layer
+- **Automation-Driven** — zero-click deploys, GitOps-first pipelines
+- **Remote-Ready** — we eat our own dogfood as digital nomads
 
 ---
 
-## 🌍 Our Philosophy
+## 🌐 Social Media & Content
 
-At NAKAMALABS.io, we believe in:
+Follow our work, updates, and in-depth technical posts here:
 
-- **Simplicity by Design**: Build solutions that are easy to use, maintain, and scale
-- **Transparency**: Open-source tools that empower citizens, businesses, and developers
-- **Performance & Automation**: Modern infrastructure and developer workflows
-- **Remote-First**: Built by digital nomads for digital-first teams
+- [![Website](https://img.shields.io/badge/Website-nakamalabs.io-informational?style=flat&logo=nextdotjs&logoColor=white&color=red)](https://nakamalabs.io)
+- [![GitHub](https://img.shields.io/badge/GitHub-nakamalabsio-181717?style=flat&logo=github&logoColor=white&color=green)](https://github.com/nakamalabsio)
+- [![Medium](https://img.shields.io/badge/Medium-@nakamalabsio-000000?style=flat&logo=medium&logoColor=white&color=blue)](https://nakamalabsio.medium.com)
 
 ---
 
-## 📫 Contact
+## 📫 Contact Us
 
-If you're interested in collaborating, hiring us, or learning more about our services:
+Looking to collaborate or need help building scalable infrastructure?
 
 - 🌐 [nakamalabs.io](https://nakamalabs.io)
 - ✉️ hello@nakamalabs.io
@@ -72,15 +79,14 @@ If you're interested in collaborating, hiring us, or learning more about our ser
 
 ## 🛠 Featured Projects
 
-> Coming soon — keep an eye on our public repositories for featured tools and case studies.
+> Stay tuned — we'll be releasing public examples of infrastructure modules, monitoring stacks, and civic tools soon.
 
 ---
 
 ## 📄 License
 
-Unless otherwise specified, all code in this organization is released under the MIT License.
+Unless stated otherwise, all repositories are open-sourced under the [MIT License](https://opensource.org/licenses/MIT).
 
 ---
 
-**Built by global digital nomads. Powered by open source.**
-
+**Built by global engineers. Powered by automation. Committed to open source.**
